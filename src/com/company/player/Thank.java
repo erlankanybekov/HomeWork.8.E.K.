@@ -21,7 +21,7 @@ public class Thank extends Hero{
     public void applySuperAbility(Boss boss, Hero[] heroes) {
         if ( boss.getHealth() > 0){
                 boss.setHealth(boss.getHealth() - savepoint );
-                System.out.println("Thank is using ability: " + savepoint+"x" );
+                System.out.println("Thank is using ability: " + savepoint+"+" );
             }
 
 
